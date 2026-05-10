@@ -2,6 +2,7 @@
 基于 PostgreSQL + Python 搭建的 A 股量化行情数据全流程平台，实现**数据采集 → ETL 入库 → 数据清洗 → 质量校验 → 金融指标计算 → 数据库优化 → 安全加固**工业级全流程闭环。
 
 ## 项目目录结构
+```tree
 QuantPG-Platform/
 ├── etl/                # 数据ETL入库脚本
 ├── data/               # 原始数据/清洗后数据文件夹（Git不上传）
@@ -9,6 +10,7 @@ QuantPG-Platform/
 ├── .env                # 数据库隐私配置文件（Git不上传）
 ├── .gitignore          # Git上传过滤规则（屏蔽敏感文件/数据文件）
 └── README.md           # 项目说明文档
+```
 
 ## 技术栈
 - 数据库：PostgreSQL 14+
